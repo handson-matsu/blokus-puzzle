@@ -1,4 +1,5 @@
 'use strict';
+const {installAccessProbe,assertAccess}=require('./access-probe.cjs');
 const {chromium}=require('playwright'),assert=require('node:assert/strict');
 const {pathToFileURL}=require('node:url'),path=require('node:path');
 const solutions=require('../solutions.js');
@@ -9,6 +10,7 @@ const solutions=require('../solutions.js');
   const page=await browser.newPage({viewport:mobile?{width:390,height:844}:{width:1280,height:1000},isMobile:mobile,hasTouch:mobile});
   const errors=[],requests=[];page.on('pageerror',e=>errors.push(e.message));
   await page.route(/^https?:/,r=>{requests.push(r.request().url());return r.abort();});
+  await installAccessProbe(page);
   await page.goto(pathToFileURL(path.resolve(__dirname,'../index.html')).href);
   const press=async selector=>{await page.locator(selector)[mobile?'tap':'click']();};
   const toggle=async()=>{for(let i=0;i<5;i++)await press('#game-title');};
@@ -48,9 +50,10 @@ const solutions=require('../solutions.js');
   await press('#remove');await press('#undo');assert.equal(await page.evaluate(()=>placed.length),1);
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   await press('#show-answer');await page.screenshot({path:`/private/tmp/blokus-admin-${mobile?'mobile':'desktop'}.png`,fullPage:true});
+  await assertAccess(page,requests,1);
   await page.reload();assert.equal(await page.locator('#admin-tools').isVisible(),false);
-  assert.deepEqual(errors,[]);assert.deepEqual(requests,[]);await page.close();
+  assert.deepEqual(errors,[]);await assertAccess(page,requests,2);await page.close();
  }
- console.log('PASS: mobile taps and desktop clicks, five-tap timeout, ON/OFF and reload, all 25 answer boards, read-only display, exact play-state restoration, undo/removal, layout, no network or browser errors.');
+ console.log('PASS: mobile taps and desktop clicks, five-tap timeout, ON/OFF and reload, all 25 answer boards, read-only display, exact play-state restoration, undo/removal, layout, one access request per load despite in-app actions, failure isolation, no browser errors.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

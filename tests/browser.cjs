@@ -1,3 +1,4 @@
+const {installAccessProbe,assertAccess}=require('./access-probe.cjs');
 const {chromium}=require('playwright');
 const assert=require('node:assert/strict');
 const {pathToFileURL}=require('node:url');
@@ -10,6 +11,7 @@ const E=require('../engine.js');
  const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
  const errors=[],requests=[];page.on('pageerror',e=>errors.push(e.message));
  await page.route(/^https?:/,r=>{requests.push(r.request().url());return r.abort();});
+ await installAccessProbe(page);
  await page.goto(pathToFileURL(path.resolve(__dirname,'../index.html')).href);
  const tap=async(x,y)=>page.locator(`.cell[data-x="${x}"][data-y="${y}"]`).tap();
  assert.equal(await page.locator('#left').isDisabled(),true);
@@ -55,7 +57,7 @@ const E=require('../engine.js');
  await page.locator('.cell[data-x="0"][data-y="0"]').hover();
  await page.locator('#left').click();await page.locator('#right').click();
  await page.screenshot({path:'/private/tmp/blokus-desktop.png',fullPage:true});
- assert.deepEqual(errors,[]);assert.deepEqual(requests,[]);
- console.log('PASS: tap placement, invalid placement blocked, legal indicators, rotate/flip controls, removal and undo, reset, all 25 clears and difficulty stars, next/last, mobile layout, no network.');
+ assert.deepEqual(errors,[]);await assertAccess(page,requests,1);
+ console.log('PASS: tap placement, invalid placement blocked, legal indicators, rotate/flip controls, removal and undo, reset, all 25 clears and difficulty stars, next/last, mobile layout, one access request despite all in-app actions, failure isolation.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});
