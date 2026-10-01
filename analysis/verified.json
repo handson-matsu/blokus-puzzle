@@ -1,0 +1,6305 @@
+[
+  {
+    "number": 1,
+    "candidate": null,
+    "review": "既存の練習問題を変更せず維持。",
+    "puzzle": {
+      "number": 1,
+      "title": "角で、こんにちは",
+      "width": 5,
+      "height": 5,
+      "start": [
+        0,
+        0
+      ],
+      "pieces": [
+        "1",
+        "2",
+        "L3"
+      ],
+      "difficulty": 1,
+      "solutionCount": 73,
+      "solutionCountExact": true,
+      "searchNodes": 2763,
+      "initialPlacements": 6,
+      "solvableInitialPlacements": 6,
+      "randomSuccessRate": 1
+    },
+    "metrics": {
+      "solutionCount": 73,
+      "rawSolutionCount": 146,
+      "searchNodes": 2763,
+      "firstSolutionNodes": 3,
+      "initialPlacements": 6,
+      "solvableInitialPlacements": 6,
+      "testedInitialPlacements": 6,
+      "deadEnds": 2497,
+      "branchPoints": 120,
+      "branchChoices": 2757,
+      "maxBranching": 38,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 2000,
+        "successRate": 1,
+        "meanPlaced": 3,
+        "stuckAt": {}
+      }
+    },
+    "witness": [
+      {
+        "id": "1",
+        "cells": [
+          [
+            0,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "L3",
+        "cells": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          1,
+          1
+        ]
+      },
+      {
+        "id": "2",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "anchor": [
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "candidate": null,
+    "review": "既存の練習問題を変更せず維持。",
+    "puzzle": {
+      "number": 2,
+      "title": "向きを変えてみよう",
+      "width": 6,
+      "height": 6,
+      "start": [
+        0,
+        0
+      ],
+      "pieces": [
+        "L3",
+        "I3",
+        "O4",
+        "1"
+      ],
+      "difficulty": 1,
+      "solutionCount": 317,
+      "solutionCountExact": true,
+      "searchNodes": 27380,
+      "initialPlacements": 7,
+      "solvableInitialPlacements": 7,
+      "randomSuccessRate": 0.922
+    },
+    "metrics": {
+      "solutionCount": 317,
+      "rawSolutionCount": 634,
+      "searchNodes": 27380,
+      "firstSolutionNodes": 7,
+      "initialPlacements": 7,
+      "solvableInitialPlacements": 7,
+      "testedInitialPlacements": 7,
+      "deadEnds": 25175,
+      "branchPoints": 1571,
+      "branchChoices": 27373,
+      "maxBranching": 39,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 1844,
+        "successRate": 0.922,
+        "meanPlaced": 3.922,
+        "stuckAt": {
+          "3": 156
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "L3",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "1",
+        "cells": [
+          [
+            2,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ]
+        ],
+        "anchor": [
+          2,
+          2
+        ]
+      },
+      {
+        "id": "O4",
+        "cells": [
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          3,
+          0
+        ]
+      },
+      {
+        "id": "I3",
+        "cells": [
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "anchor": [
+          3,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "candidate": null,
+    "review": "既存の練習問題を変更せず維持。",
+    "puzzle": {
+      "number": 3,
+      "title": "四角とジグザグ",
+      "width": 7,
+      "height": 7,
+      "start": [
+        0,
+        0
+      ],
+      "pieces": [
+        "O4",
+        "S4",
+        "T4",
+        "2",
+        "L3"
+      ],
+      "difficulty": 1,
+      "solutionCount": 10000,
+      "solutionCountExact": false,
+      "searchNodes": 202424,
+      "initialPlacements": 10,
+      "solvableInitialPlacements": null,
+      "randomSuccessRate": 0.96
+    },
+    "metrics": {
+      "solutionCount": 10000,
+      "rawSolutionCount": 10000,
+      "searchNodes": 202424,
+      "firstSolutionNodes": 11,
+      "initialPlacements": 10,
+      "solvableInitialPlacements": 1,
+      "testedInitialPlacements": 0,
+      "deadEnds": 180551,
+      "branchPoints": 11871,
+      "branchChoices": 202511,
+      "maxBranching": 77,
+      "complete": false,
+      "stopReason": "solution-limit",
+      "solutionCountExact": false,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 1920,
+        "successRate": 0.96,
+        "meanPlaced": 4.96,
+        "stuckAt": {
+          "4": 80
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "O4",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "L3",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          2,
+          2
+        ]
+      },
+      {
+        "id": "S4",
+        "cells": [
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          5,
+          1
+        ]
+      },
+      {
+        "id": "2",
+        "cells": [
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "anchor": [
+          3,
+          0
+        ]
+      },
+      {
+        "id": "T4",
+        "cells": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          4,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "candidate": null,
+    "review": "既存の練習問題を変更せず維持。",
+    "puzzle": {
+      "number": 4,
+      "title": "5マスのピースに挑戦",
+      "width": 8,
+      "height": 8,
+      "start": [
+        0,
+        0
+      ],
+      "pieces": [
+        "P5",
+        "L5",
+        "T5",
+        "I3",
+        "2"
+      ],
+      "difficulty": 1,
+      "solutionCount": 10000,
+      "solutionCountExact": false,
+      "searchNodes": 896387,
+      "initialPlacements": 18,
+      "solvableInitialPlacements": null,
+      "randomSuccessRate": 0.9985
+    },
+    "metrics": {
+      "solutionCount": 10000,
+      "rawSolutionCount": 10000,
+      "searchNodes": 896387,
+      "firstSolutionNodes": 19,
+      "initialPlacements": 18,
+      "solvableInitialPlacements": 1,
+      "testedInitialPlacements": 0,
+      "deadEnds": 852446,
+      "branchPoints": 33941,
+      "branchChoices": 896480,
+      "maxBranching": 99,
+      "complete": false,
+      "stopReason": "solution-limit",
+      "solutionCountExact": false,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 1997,
+        "successRate": 0.9985,
+        "meanPlaced": 4.9985,
+        "stuckAt": {
+          "4": 3
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "P5",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "L5",
+        "cells": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "anchor": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": "T5",
+        "cells": [
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          3,
+          2
+        ]
+      },
+      {
+        "id": "2",
+        "cells": [
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "anchor": [
+          6,
+          1
+        ]
+      },
+      {
+        "id": "I3",
+        "cells": [
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "anchor": [
+          3,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "candidate": null,
+    "review": "既存の練習問題を変更せず維持。",
+    "puzzle": {
+      "number": 5,
+      "title": "真ん中から広げよう",
+      "width": 8,
+      "height": 8,
+      "start": [
+        3,
+        3
+      ],
+      "pieces": [
+        "F5",
+        "U5",
+        "W5",
+        "L4",
+        "1",
+        "2"
+      ],
+      "difficulty": 1,
+      "solutionCount": 10000,
+      "solutionCountExact": false,
+      "searchNodes": 330485,
+      "initialPlacements": 117,
+      "solvableInitialPlacements": null,
+      "randomSuccessRate": 0.9625
+    },
+    "metrics": {
+      "solutionCount": 10000,
+      "rawSolutionCount": 10000,
+      "searchNodes": 330485,
+      "firstSolutionNodes": 326,
+      "initialPlacements": 117,
+      "solvableInitialPlacements": 1,
+      "testedInitialPlacements": 0,
+      "deadEnds": 299674,
+      "branchPoints": 20811,
+      "branchChoices": 330632,
+      "maxBranching": 80,
+      "complete": false,
+      "stopReason": "solution-limit",
+      "solutionCountExact": false,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 1925,
+        "successRate": 0.9625,
+        "meanPlaced": 5.9625,
+        "stuckAt": {
+          "5": 75
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "F5",
+        "cells": [
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          3,
+          1
+        ]
+      },
+      {
+        "id": "W5",
+        "cells": [
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          5,
+          2
+        ]
+      },
+      {
+        "id": "U5",
+        "cells": [
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "anchor": [
+          2,
+          4
+        ]
+      },
+      {
+        "id": "L4",
+        "cells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": "1",
+        "cells": [
+          [
+            1,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ]
+        ],
+        "anchor": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": "2",
+        "cells": [
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "anchor": [
+          5,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "candidate": 124,
+    "review": "棒・四角・階段を組み合わせる。初手はすべて救済可能だが、その後の選択に失敗がある。",
+    "puzzle": {
+      "number": 6,
+      "title": "四角からジグザグへ",
+      "width": 6,
+      "height": 6,
+      "start": [
+        0,
+        0
+      ],
+      "pieces": [
+        "I4",
+        "O4",
+        "W5",
+        "S4"
+      ],
+      "difficulty": 2,
+      "solutionCount": 76,
+      "solutionCountExact": true,
+      "searchNodes": 975,
+      "initialPlacements": 7,
+      "solvableInitialPlacements": 7,
+      "randomSuccessRate": 0.463
+    },
+    "metrics": {
+      "solutionCount": 76,
+      "rawSolutionCount": 152,
+      "searchNodes": 975,
+      "firstSolutionNodes": 6,
+      "initialPlacements": 7,
+      "solvableInitialPlacements": 7,
+      "testedInitialPlacements": 7,
+      "deadEnds": 640,
+      "branchPoints": 167,
+      "branchChoices": 968,
+      "maxBranching": 20,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 926,
+        "successRate": 0.463,
+        "meanPlaced": 3.4255,
+        "stuckAt": {
+          "2": 75,
+          "3": 999
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "I4",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "O4",
+        "cells": [
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          4,
+          1
+        ]
+      },
+      {
+        "id": "W5",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          2,
+          2
+        ]
+      },
+      {
+        "id": "S4",
+        "cells": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "candidate": 41,
+    "review": "3個でもSとNの折れ方を見分ける。内側のスタートから方向を選ぶ。",
+    "puzzle": {
+      "number": 7,
+      "title": "斜めのすき間",
+      "width": 5,
+      "height": 5,
+      "start": [
+        1,
+        1
+      ],
+      "pieces": [
+        "S4",
+        "N5",
+        "I3"
+      ],
+      "difficulty": 2,
+      "solutionCount": 33,
+      "solutionCountExact": true,
+      "searchNodes": 364,
+      "initialPlacements": 36,
+      "solvableInitialPlacements": 22,
+      "randomSuccessRate": 0.3775
+    },
+    "metrics": {
+      "solutionCount": 33,
+      "rawSolutionCount": 66,
+      "searchNodes": 364,
+      "firstSolutionNodes": 3,
+      "initialPlacements": 36,
+      "solvableInitialPlacements": 22,
+      "testedInitialPlacements": 36,
+      "deadEnds": 216,
+      "branchPoints": 50,
+      "branchChoices": 328,
+      "maxBranching": 13,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 755,
+        "successRate": 0.3775,
+        "meanPlaced": 2.3775,
+        "stuckAt": {
+          "2": 1245
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "S4",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": "I3",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "anchor": [
+          2,
+          2
+        ]
+      },
+      {
+        "id": "N5",
+        "cells": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "anchor": [
+          0,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "candidate": 235,
+    "review": "大小のLと棒を使う。角スタートで短いピースを置く順番を考える。",
+    "puzzle": {
+      "number": 8,
+      "title": "長い腕、短い腕",
+      "width": 5,
+      "height": 5,
+      "start": [
+        0,
+        0
+      ],
+      "pieces": [
+        "L3",
+        "L5",
+        "I3",
+        "2"
+      ],
+      "difficulty": 2,
+      "solutionCount": 52,
+      "solutionCountExact": true,
+      "searchNodes": 819,
+      "initialPlacements": 13,
+      "solvableInitialPlacements": 11,
+      "randomSuccessRate": 0.266
+    },
+    "metrics": {
+      "solutionCount": 52,
+      "rawSolutionCount": 104,
+      "searchNodes": 819,
+      "firstSolutionNodes": 9,
+      "initialPlacements": 13,
+      "solvableInitialPlacements": 11,
+      "testedInitialPlacements": 13,
+      "deadEnds": 500,
+      "branchPoints": 147,
+      "branchChoices": 806,
+      "maxBranching": 24,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 532,
+        "successRate": 0.266,
+        "meanPlaced": 3.1905,
+        "stuckAt": {
+          "2": 151,
+          "3": 1317
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "L3",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "I3",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "anchor": [
+          2,
+          0
+        ]
+      },
+      {
+        "id": "2",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "anchor": [
+          2,
+          2
+        ]
+      },
+      {
+        "id": "L5",
+        "cells": [
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "anchor": [
+          4,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "candidate": 33,
+    "review": "回転しても同じ四角とT・Zを組み合わせる。辺上のスタートから広げる。",
+    "puzzle": {
+      "number": 9,
+      "title": "四角と二つの分かれ道",
+      "width": 5,
+      "height": 5,
+      "start": [
+        0,
+        1
+      ],
+      "pieces": [
+        "O4",
+        "T4",
+        "Z5"
+      ],
+      "difficulty": 2,
+      "solutionCount": 11,
+      "solutionCountExact": true,
+      "searchNodes": 66,
+      "initialPlacements": 11,
+      "solvableInitialPlacements": 6,
+      "randomSuccessRate": 0.2385
+    },
+    "metrics": {
+      "solutionCount": 11,
+      "rawSolutionCount": 11,
+      "searchNodes": 66,
+      "firstSolutionNodes": 5,
+      "initialPlacements": 11,
+      "solvableInitialPlacements": 6,
+      "testedInitialPlacements": 11,
+      "deadEnds": 33,
+      "branchPoints": 10,
+      "branchChoices": 55,
+      "maxBranching": 10,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 477,
+        "successRate": 0.2385,
+        "meanPlaced": 2.2385,
+        "stuckAt": {
+          "2": 1523
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "O4",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "Z5",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "anchor": [
+          2,
+          2
+        ]
+      },
+      {
+        "id": "T4",
+        "cells": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          4,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "candidate": 139,
+    "review": "1マスの置き場所とFの凹みが焦点。中央スタートで進む方向が増える。",
+    "puzzle": {
+      "number": 10,
+      "title": "小さな一歩の行き先",
+      "width": 5,
+      "height": 5,
+      "start": [
+        2,
+        2
+      ],
+      "pieces": [
+        "1",
+        "F5",
+        "S4",
+        "L3"
+      ],
+      "difficulty": 2,
+      "solutionCount": 44,
+      "solutionCountExact": true,
+      "searchNodes": 933,
+      "initialPlacements": 69,
+      "solvableInitialPlacements": 32,
+      "randomSuccessRate": 0.1875
+    },
+    "metrics": {
+      "solutionCount": 44,
+      "rawSolutionCount": 352,
+      "searchNodes": 933,
+      "firstSolutionNodes": 5,
+      "initialPlacements": 69,
+      "solvableInitialPlacements": 32,
+      "testedInitialPlacements": 69,
+      "deadEnds": 189,
+      "branchPoints": 264,
+      "branchChoices": 864,
+      "maxBranching": 5,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 375,
+        "successRate": 0.1875,
+        "meanPlaced": 3.1775,
+        "stuckAt": {
+          "2": 20,
+          "3": 1605
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "F5",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          2,
+          0
+        ]
+      },
+      {
+        "id": "S4",
+        "cells": [
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          3,
+          3
+        ]
+      },
+      {
+        "id": "L3",
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": "1",
+        "cells": [
+          [
+            0,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "number": 11,
+    "candidate": 65,
+    "review": "3個でも中央開始の初手の多くが行き止まり。P・L・Sを回して組み合わせる。",
+    "puzzle": {
+      "number": 11,
+      "title": "中央の折り返し",
+      "width": 5,
+      "height": 5,
+      "start": [
+        2,
+        2
+      ],
+      "pieces": [
+        "P5",
+        "L4",
+        "S4"
+      ],
+      "difficulty": 3,
+      "solutionCount": 10,
+      "solutionCountExact": true,
+      "searchNodes": 384,
+      "initialPlacements": 88,
+      "solvableInitialPlacements": 24,
+      "randomSuccessRate": 0.157
+    },
+    "metrics": {
+      "solutionCount": 10,
+      "rawSolutionCount": 80,
+      "searchNodes": 384,
+      "firstSolutionNodes": 3,
+      "initialPlacements": 88,
+      "solvableInitialPlacements": 24,
+      "testedInitialPlacements": 88,
+      "deadEnds": 168,
+      "branchPoints": 96,
+      "branchChoices": 296,
+      "maxBranching": 4,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 314,
+        "successRate": 0.157,
+        "meanPlaced": 2.0695,
+        "stuckAt": {
+          "1": 175,
+          "2": 1511
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "P5",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "anchor": [
+          2,
+          0
+        ]
+      },
+      {
+        "id": "S4",
+        "cells": [
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          3,
+          3
+        ]
+      },
+      {
+        "id": "L4",
+        "cells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "candidate": 131,
+    "review": "回転しても同じXに必要な空間を、1・2マスのピースと長いLで確保する。",
+    "puzzle": {
+      "number": 12,
+      "title": "十字のための空間",
+      "width": 5,
+      "height": 5,
+      "start": [
+        0,
+        0
+      ],
+      "pieces": [
+        "1",
+        "2",
+        "X5",
+        "L5"
+      ],
+      "difficulty": 3,
+      "solutionCount": 20,
+      "solutionCountExact": true,
+      "searchNodes": 137,
+      "initialPlacements": 9,
+      "solvableInitialPlacements": 7,
+      "randomSuccessRate": 0.122
+    },
+    "metrics": {
+      "solutionCount": 20,
+      "rawSolutionCount": 40,
+      "searchNodes": 137,
+      "firstSolutionNodes": 5,
+      "initialPlacements": 9,
+      "solvableInitialPlacements": 7,
+      "testedInitialPlacements": 9,
+      "deadEnds": 46,
+      "branchPoints": 41,
+      "branchChoices": 128,
+      "maxBranching": 8,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 244,
+        "successRate": 0.122,
+        "meanPlaced": 3.122,
+        "stuckAt": {
+          "3": 1756
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "1",
+        "cells": [
+          [
+            0,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X5",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          2,
+          0
+        ]
+      },
+      {
+        "id": "2",
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "anchor": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": "L5",
+        "cells": [
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "anchor": [
+          4,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "candidate": 60,
+    "review": "4・5マスの直線とY・Sの混在。長い直線を置く方向で選択肢が狭まる。",
+    "puzzle": {
+      "number": 13,
+      "title": "二本の棒の居場所",
+      "width": 6,
+      "height": 6,
+      "start": [
+        0,
+        0
+      ],
+      "pieces": [
+        "I4",
+        "Y5",
+        "S4",
+        "I5"
+      ],
+      "difficulty": 3,
+      "solutionCount": 14,
+      "solutionCountExact": true,
+      "searchNodes": 526,
+      "initialPlacements": 10,
+      "solvableInitialPlacements": 4,
+      "randomSuccessRate": 0.1055
+    },
+    "metrics": {
+      "solutionCount": 14,
+      "rawSolutionCount": 28,
+      "searchNodes": 526,
+      "firstSolutionNodes": 152,
+      "initialPlacements": 10,
+      "solvableInitialPlacements": 4,
+      "testedInitialPlacements": 10,
+      "deadEnds": 410,
+      "branchPoints": 76,
+      "branchChoices": 516,
+      "maxBranching": 25,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 211,
+        "successRate": 0.1055,
+        "meanPlaced": 3.035,
+        "stuckAt": {
+          "2": 141,
+          "3": 1648
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "Y5",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "S4",
+        "cells": [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "anchor": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": "I4",
+        "cells": [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "anchor": [
+          1,
+          5
+        ]
+      },
+      {
+        "id": "I5",
+        "cells": [
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "anchor": [
+          5,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "number": 14,
+    "candidate": 18,
+    "review": "F・U・Lの3個だけで構成。辺上スタートとUのくぼみの向きが制約になる。",
+    "puzzle": {
+      "number": 14,
+      "title": "くぼみの向こうへ",
+      "width": 5,
+      "height": 5,
+      "start": [
+        0,
+        1
+      ],
+      "pieces": [
+        "F5",
+        "U5",
+        "L5"
+      ],
+      "difficulty": 3,
+      "solutionCount": 18,
+      "solutionCountExact": true,
+      "searchNodes": 192,
+      "initialPlacements": 26,
+      "solvableInitialPlacements": 10,
+      "randomSuccessRate": 0.0865
+    },
+    "metrics": {
+      "solutionCount": 18,
+      "rawSolutionCount": 18,
+      "searchNodes": 192,
+      "firstSolutionNodes": 3,
+      "initialPlacements": 26,
+      "solvableInitialPlacements": 10,
+      "testedInitialPlacements": 26,
+      "deadEnds": 137,
+      "branchPoints": 17,
+      "branchChoices": 166,
+      "maxBranching": 16,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 173,
+        "successRate": 0.0865,
+        "meanPlaced": 2.05,
+        "stuckAt": {
+          "1": 73,
+          "2": 1754
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "F5",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": "U5",
+        "cells": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "anchor": [
+          0,
+          3
+        ]
+      },
+      {
+        "id": "L5",
+        "cells": [
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "anchor": [
+          3,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "number": 15,
+    "candidate": 98,
+    "review": "5×5の中央開始、L・T・Yの3個。少数ピースでも対称性を除き一意になる。",
+    "puzzle": {
+      "number": 15,
+      "title": "三つで一意",
+      "width": 5,
+      "height": 5,
+      "start": [
+        2,
+        2
+      ],
+      "pieces": [
+        "L5",
+        "T5",
+        "Y5"
+      ],
+      "difficulty": 3,
+      "solutionCount": 1,
+      "solutionCountExact": true,
+      "searchNodes": 108,
+      "initialPlacements": 60,
+      "solvableInitialPlacements": 4,
+      "randomSuccessRate": 0.0335
+    },
+    "metrics": {
+      "solutionCount": 1,
+      "rawSolutionCount": 8,
+      "searchNodes": 108,
+      "firstSolutionNodes": 19,
+      "initialPlacements": 60,
+      "solvableInitialPlacements": 4,
+      "testedInitialPlacements": 60,
+      "deadEnds": 80,
+      "branchPoints": 12,
+      "branchChoices": 48,
+      "maxBranching": 4,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 67,
+        "successRate": 0.0335,
+        "meanPlaced": 1.717,
+        "stuckAt": {
+          "1": 633,
+          "2": 1300
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "T5",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": "Y5",
+        "cells": [
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "anchor": [
+          4,
+          1
+        ]
+      },
+      {
+        "id": "L5",
+        "cells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "anchor": [
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "number": 16,
+    "candidate": 76,
+    "review": "Y・V・N・Tの4種。角から伸ばすだけでは最後のピースが残りやすい。",
+    "puzzle": {
+      "number": 16,
+      "title": "四つの折れ曲がり",
+      "width": 6,
+      "height": 6,
+      "start": [
+        0,
+        0
+      ],
+      "pieces": [
+        "Y5",
+        "V5",
+        "N5",
+        "T5"
+      ],
+      "difficulty": 4,
+      "solutionCount": 14,
+      "solutionCountExact": true,
+      "searchNodes": 1103,
+      "initialPlacements": 13,
+      "solvableInitialPlacements": 9,
+      "randomSuccessRate": 0.0155
+    },
+    "metrics": {
+      "solutionCount": 14,
+      "rawSolutionCount": 28,
+      "searchNodes": 1103,
+      "firstSolutionNodes": 50,
+      "initialPlacements": 13,
+      "solvableInitialPlacements": 9,
+      "testedInitialPlacements": 13,
+      "deadEnds": 888,
+      "branchPoints": 145,
+      "branchChoices": 1090,
+      "maxBranching": 32,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 31,
+        "successRate": 0.0155,
+        "meanPlaced": 2.9055,
+        "stuckAt": {
+          "2": 220,
+          "3": 1749
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "Y5",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "N5",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "anchor": [
+          2,
+          2
+        ]
+      },
+      {
+        "id": "T5",
+        "cells": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          4,
+          3
+        ]
+      },
+      {
+        "id": "V5",
+        "cells": [
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          3,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "number": 17,
+    "candidate": 123,
+    "review": "5×5でL3・X5・S4・I3。小さな盤面の2解で、内側スタートの初手を絞る。",
+    "puzzle": {
+      "number": 17,
+      "title": "十字と階段のすき間",
+      "width": 5,
+      "height": 5,
+      "start": [
+        1,
+        1
+      ],
+      "pieces": [
+        "L3",
+        "X5",
+        "S4",
+        "I3"
+      ],
+      "difficulty": 4,
+      "solutionCount": 2,
+      "solutionCountExact": true,
+      "searchNodes": 117,
+      "initialPlacements": 31,
+      "solvableInitialPlacements": 3,
+      "randomSuccessRate": 0.0105
+    },
+    "metrics": {
+      "solutionCount": 2,
+      "rawSolutionCount": 4,
+      "searchNodes": 117,
+      "firstSolutionNodes": 52,
+      "initialPlacements": 31,
+      "solvableInitialPlacements": 3,
+      "testedInitialPlacements": 31,
+      "deadEnds": 58,
+      "branchPoints": 14,
+      "branchChoices": 86,
+      "maxBranching": 8,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 21,
+        "successRate": 0.0105,
+        "meanPlaced": 2.859,
+        "stuckAt": {
+          "2": 303,
+          "3": 1676
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "X5",
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          1,
+          0
+        ]
+      },
+      {
+        "id": "S4",
+        "cells": [
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          3,
+          2
+        ]
+      },
+      {
+        "id": "I3",
+        "cells": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "anchor": [
+          0,
+          4
+        ]
+      },
+      {
+        "id": "L3",
+        "cells": [
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          3,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "number": 18,
+    "candidate": 524,
+    "review": "W・Z・I4・N。角開始の一意解で、折れ曲がり方の違いを読む。",
+    "puzzle": {
+      "number": 18,
+      "title": "折り返しの一本道",
+      "width": 6,
+      "height": 6,
+      "start": [
+        0,
+        0
+      ],
+      "pieces": [
+        "W5",
+        "Z5",
+        "I4",
+        "N5"
+      ],
+      "difficulty": 4,
+      "solutionCount": 1,
+      "solutionCountExact": true,
+      "searchNodes": 564,
+      "initialPlacements": 10,
+      "solvableInitialPlacements": 2,
+      "randomSuccessRate": 0.006
+    },
+    "metrics": {
+      "solutionCount": 1,
+      "rawSolutionCount": 2,
+      "searchNodes": 564,
+      "firstSolutionNodes": 186,
+      "initialPlacements": 10,
+      "solvableInitialPlacements": 2,
+      "testedInitialPlacements": 10,
+      "deadEnds": 474,
+      "branchPoints": 78,
+      "branchChoices": 554,
+      "maxBranching": 35,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 12,
+        "successRate": 0.006,
+        "meanPlaced": 2.8315,
+        "stuckAt": {
+          "2": 349,
+          "3": 1639
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "I4",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "Z5",
+        "cells": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "shape": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "anchor": [
+          4,
+          1
+        ]
+      },
+      {
+        "id": "W5",
+        "cells": [
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          5,
+          3
+        ]
+      },
+      {
+        "id": "N5",
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "anchor": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "number": 19,
+    "candidate": 149,
+    "review": "W・Z・N・Lの5マス4個。内側スタートで、配置の多くが3個目の後に詰まる。",
+    "puzzle": {
+      "number": 19,
+      "title": "四つの長い影",
+      "width": 6,
+      "height": 6,
+      "start": [
+        1,
+        1
+      ],
+      "pieces": [
+        "W5",
+        "Z5",
+        "N5",
+        "L5"
+      ],
+      "difficulty": 4,
+      "solutionCount": 5,
+      "solutionCountExact": true,
+      "searchNodes": 2278,
+      "initialPlacements": 60,
+      "solvableInitialPlacements": 6,
+      "randomSuccessRate": 0.002
+    },
+    "metrics": {
+      "solutionCount": 5,
+      "rawSolutionCount": 10,
+      "searchNodes": 2278,
+      "firstSolutionNodes": 61,
+      "initialPlacements": 60,
+      "solvableInitialPlacements": 6,
+      "testedInitialPlacements": 60,
+      "deadEnds": 1812,
+      "branchPoints": 302,
+      "branchChoices": 2218,
+      "maxBranching": 32,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 4,
+        "successRate": 0.002,
+        "meanPlaced": 2.765,
+        "stuckAt": {
+          "2": 474,
+          "3": 1522
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "W5",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "Z5",
+        "cells": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          3
+        ]
+      },
+      {
+        "id": "L5",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "anchor": [
+          2,
+          0
+        ]
+      },
+      {
+        "id": "N5",
+        "cells": [
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "anchor": [
+          4,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "number": 20,
+    "candidate": 478,
+    "review": "四連4種とZ5。6×6で2解しかなく、初手62通り中4通りだけが解に続く。",
+    "puzzle": {
+      "number": 20,
+      "title": "最後の一片のために",
+      "width": 6,
+      "height": 6,
+      "start": [
+        3,
+        3
+      ],
+      "pieces": [
+        "O4",
+        "I4",
+        "S4",
+        "T4",
+        "Z5"
+      ],
+      "difficulty": 4,
+      "solutionCount": 2,
+      "solutionCountExact": true,
+      "searchNodes": 1092,
+      "initialPlacements": 62,
+      "solvableInitialPlacements": 4,
+      "randomSuccessRate": 0
+    },
+    "metrics": {
+      "solutionCount": 2,
+      "rawSolutionCount": 4,
+      "searchNodes": 1092,
+      "firstSolutionNodes": 666,
+      "initialPlacements": 62,
+      "solvableInitialPlacements": 4,
+      "testedInitialPlacements": 62,
+      "deadEnds": 741,
+      "branchPoints": 225,
+      "branchChoices": 1030,
+      "maxBranching": 12,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 0,
+        "successRate": 0,
+        "meanPlaced": 3.371,
+        "stuckAt": {
+          "2": 70,
+          "3": 1118,
+          "4": 812
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "Z5",
+        "cells": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": "O4",
+        "cells": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          0,
+          4
+        ]
+      },
+      {
+        "id": "I4",
+        "cells": [
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "anchor": [
+          5,
+          1
+        ]
+      },
+      {
+        "id": "S4",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "T4",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "number": 21,
+    "candidate": 512,
+    "review": "棒2種とT4・Z5・Y5・X5。6個の2解で、内側スタートの選択を迫る。",
+    "puzzle": {
+      "number": 21,
+      "title": "十字を残すな",
+      "width": 7,
+      "height": 7,
+      "start": [
+        1,
+        1
+      ],
+      "pieces": [
+        "T4",
+        "I4",
+        "I5",
+        "Z5",
+        "Y5",
+        "X5"
+      ],
+      "difficulty": 5,
+      "solutionCount": 2,
+      "solutionCountExact": true,
+      "searchNodes": 7493,
+      "initialPlacements": 53,
+      "solvableInitialPlacements": 3,
+      "randomSuccessRate": 0
+    },
+    "metrics": {
+      "solutionCount": 2,
+      "rawSolutionCount": 4,
+      "searchNodes": 7493,
+      "firstSolutionNodes": 4493,
+      "initialPlacements": 53,
+      "solvableInitialPlacements": 3,
+      "testedInitialPlacements": 53,
+      "deadEnds": 5476,
+      "branchPoints": 1389,
+      "branchChoices": 7440,
+      "maxBranching": 20,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 0,
+        "successRate": 0,
+        "meanPlaced": 3.9485,
+        "stuckAt": {
+          "3": 407,
+          "4": 1289,
+          "5": 304
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "Y5",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X5",
+        "cells": [
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          1,
+          4
+        ]
+      },
+      {
+        "id": "I5",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "anchor": [
+          2,
+          0
+        ]
+      },
+      {
+        "id": "I4",
+        "cells": [
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "anchor": [
+          3,
+          6
+        ]
+      },
+      {
+        "id": "Z5",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          2,
+          2
+        ]
+      },
+      {
+        "id": "T4",
+        "cells": [
+          [
+            6,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          6,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "number": 22,
+    "candidate": 144,
+    "review": "中央スタートと棒2種・L4・T5・F5・W5。盤全体の広げ方を先に考える。",
+    "puzzle": {
+      "number": 22,
+      "title": "中心からの設計図",
+      "width": 7,
+      "height": 7,
+      "start": [
+        3,
+        3
+      ],
+      "pieces": [
+        "L4",
+        "T5",
+        "I5",
+        "F5",
+        "W5",
+        "I4"
+      ],
+      "difficulty": 5,
+      "solutionCount": 2,
+      "solutionCountExact": true,
+      "searchNodes": 17046,
+      "initialPlacements": 126,
+      "solvableInitialPlacements": 8,
+      "randomSuccessRate": 0
+    },
+    "metrics": {
+      "solutionCount": 2,
+      "rawSolutionCount": 16,
+      "searchNodes": 17046,
+      "firstSolutionNodes": 8007,
+      "initialPlacements": 126,
+      "solvableInitialPlacements": 8,
+      "testedInitialPlacements": 126,
+      "deadEnds": 11848,
+      "branchPoints": 2998,
+      "branchChoices": 16920,
+      "maxBranching": 18,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 0,
+        "successRate": 0,
+        "meanPlaced": 4.2505,
+        "stuckAt": {
+          "2": 2,
+          "3": 157,
+          "4": 1179,
+          "5": 662
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "F5",
+        "cells": [
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          4,
+          2
+        ]
+      },
+      {
+        "id": "T5",
+        "cells": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          3
+        ]
+      },
+      {
+        "id": "W5",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "I5",
+        "cells": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "anchor": [
+          2,
+          0
+        ]
+      },
+      {
+        "id": "I4",
+        "cells": [
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "anchor": [
+          1,
+          6
+        ]
+      },
+      {
+        "id": "L4",
+        "cells": [
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          6,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "number": 23,
+    "candidate": 208,
+    "review": "角開始でX・W・F・U・Pの5マス5種とI4。合法な初手16通り中2通りが生き残る。",
+    "puzzle": {
+      "number": 23,
+      "title": "角から閉じる迷路",
+      "width": 7,
+      "height": 7,
+      "start": [
+        0,
+        0
+      ],
+      "pieces": [
+        "X5",
+        "W5",
+        "F5",
+        "U5",
+        "P5",
+        "I4"
+      ],
+      "difficulty": 5,
+      "solutionCount": 2,
+      "solutionCountExact": true,
+      "searchNodes": 21324,
+      "initialPlacements": 16,
+      "solvableInitialPlacements": 2,
+      "randomSuccessRate": 0
+    },
+    "metrics": {
+      "solutionCount": 2,
+      "rawSolutionCount": 4,
+      "searchNodes": 21324,
+      "firstSolutionNodes": 8706,
+      "initialPlacements": 16,
+      "solvableInitialPlacements": 2,
+      "testedInitialPlacements": 16,
+      "deadEnds": 17736,
+      "branchPoints": 2988,
+      "branchChoices": 21308,
+      "maxBranching": 47,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 0,
+        "successRate": 0,
+        "meanPlaced": 4.383,
+        "stuckAt": {
+          "3": 33,
+          "4": 1168,
+          "5": 799
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "P5",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "X5",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          2,
+          2
+        ]
+      },
+      {
+        "id": "W5",
+        "cells": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          4
+        ]
+      },
+      {
+        "id": "U5",
+        "cells": [
+          [
+            3,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "anchor": [
+          3,
+          0
+        ]
+      },
+      {
+        "id": "I4",
+        "cells": [
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "anchor": [
+          6,
+          2
+        ]
+      },
+      {
+        "id": "F5",
+        "cells": [
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          4,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "number": 24,
+    "candidate": 952,
+    "review": "角開始でW・Z・T5・O4・F5・T4。棒に頼れない構成を2解に絞る。",
+    "puzzle": {
+      "number": 24,
+      "title": "二つだけの道筋",
+      "width": 7,
+      "height": 7,
+      "start": [
+        0,
+        0
+      ],
+      "pieces": [
+        "W5",
+        "Z5",
+        "T5",
+        "O4",
+        "F5",
+        "T4"
+      ],
+      "difficulty": 5,
+      "solutionCount": 2,
+      "solutionCountExact": true,
+      "searchNodes": 39331,
+      "initialPlacements": 11,
+      "solvableInitialPlacements": 4,
+      "randomSuccessRate": 0
+    },
+    "metrics": {
+      "solutionCount": 2,
+      "rawSolutionCount": 4,
+      "searchNodes": 39331,
+      "firstSolutionNodes": 4241,
+      "initialPlacements": 11,
+      "solvableInitialPlacements": 4,
+      "testedInitialPlacements": 11,
+      "deadEnds": 33396,
+      "branchPoints": 4587,
+      "branchChoices": 39320,
+      "maxBranching": 74,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 0,
+        "successRate": 0,
+        "meanPlaced": 4.3555,
+        "stuckAt": {
+          "3": 13,
+          "4": 1263,
+          "5": 724
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "Z5",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "O4",
+        "cells": [
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "anchor": [
+          3,
+          0
+        ]
+      },
+      {
+        "id": "F5",
+        "cells": [
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          3,
+          3
+        ]
+      },
+      {
+        "id": "T5",
+        "cells": [
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          5,
+          4
+        ]
+      },
+      {
+        "id": "W5",
+        "cells": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          4
+        ]
+      },
+      {
+        "id": "T4",
+        "cells": [
+          [
+            6,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          6,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "number": 25,
+    "candidate": 664,
+    "review": "5マス6種のみ。7×7内側スタート、104初手中2通り、対称性を除き一意。",
+    "puzzle": {
+      "number": 25,
+      "title": "六片の一意解",
+      "width": 7,
+      "height": 7,
+      "start": [
+        1,
+        1
+      ],
+      "pieces": [
+        "T5",
+        "Y5",
+        "N5",
+        "U5",
+        "F5",
+        "L5"
+      ],
+      "difficulty": 5,
+      "solutionCount": 1,
+      "solutionCountExact": true,
+      "searchNodes": 222846,
+      "initialPlacements": 104,
+      "solvableInitialPlacements": 2,
+      "randomSuccessRate": 0
+    },
+    "metrics": {
+      "solutionCount": 1,
+      "rawSolutionCount": 2,
+      "searchNodes": 222846,
+      "firstSolutionNodes": 4933,
+      "initialPlacements": 104,
+      "solvableInitialPlacements": 2,
+      "testedInitialPlacements": 104,
+      "deadEnds": 188284,
+      "branchPoints": 27186,
+      "branchChoices": 222742,
+      "maxBranching": 73,
+      "complete": true,
+      "stopReason": null,
+      "solutionCountExact": true,
+      "solutionEquivalence": "piece-labelled arrangements modulo board symmetries preserving start",
+      "playout": {
+        "trials": 2000,
+        "seed": 20261001,
+        "successes": 0,
+        "successRate": 0,
+        "meanPlaced": 3.9135,
+        "stuckAt": {
+          "3": 376,
+          "4": 1421,
+          "5": 203
+        }
+      }
+    },
+    "witness": [
+      {
+        "id": "T5",
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "anchor": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "Y5",
+        "cells": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "anchor": [
+          0,
+          3
+        ]
+      },
+      {
+        "id": "L5",
+        "cells": [
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "anchor": [
+          2,
+          5
+        ]
+      },
+      {
+        "id": "N5",
+        "cells": [
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "anchor": [
+          5,
+          2
+        ]
+      },
+      {
+        "id": "U5",
+        "cells": [
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "shape": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "anchor": [
+          4,
+          0
+        ]
+      },
+      {
+        "id": "F5",
+        "cells": [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "shape": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "anchor": [
+          3,
+          2
+        ]
+      }
+    ]
+  }
+]
